@@ -24,16 +24,6 @@ print("Logical AND:", x and y)      # False
 print("Logical OR:", x or y)        # True
 print("Logical NOT:", not x)        # False
 
-# Bitwise Operations
-c = 2  # (bin: 10)
-d = 3  # (bin: 11)
-print("Bitwise AND:", c & d)        # 2 (bin: 10)
-print("Bitwise OR:", c | d)         # 3 (bin: 11)
-print("Bitwise XOR:", c ^ d)        # 1 (bin: 01)
-print("Bitwise NOT:", ~c)           # -3 (2's complement of 2)
-print("Left Shift:", c << 1)        # 4 (bin: 100)
-print("Right Shift:", c >> 1)       # 1 (bin: 1)
-
 # Assignment Operations
 e = 10
 e += 2
