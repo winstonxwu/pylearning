@@ -1,0 +1,20 @@
+'''
+ - Classes are blueprints for building objects.
+ - This is an example of how to make a class in Python.
+
+'''
+
+class Shawn:
+    def __init__(self, height, food):
+        self.height = height
+        self.food = food
+    def pounds_of_rice(self, pounds):
+        while int(pounds):
+            print("Eating ...")
+            pounds -= 1
+
+DePedro = Shawn("6'2", "cheese")
+
+print(DePedro.food, DePedro.height)
+
+DePedro.pounds_of_rice(100)
